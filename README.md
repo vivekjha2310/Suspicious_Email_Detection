@@ -1,9 +1,9 @@
 # Suspicious_Email_Detection
 This Project is about detecting the keywords that comes under the suspicious category
 ## It has an five modules over which it is divided
-  -- login Module
-    -Admin
-    --User
+  <li> login Module</li></br>
+    <li>Admin<li>
+    <li>User<li>
   -- Registration Module
     --Mail Module
   -- Detetction Module
