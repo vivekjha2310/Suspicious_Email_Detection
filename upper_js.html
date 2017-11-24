@@ -1,0 +1,11 @@
+$(document).ready(function(){
+				var count=0;
+
+				$("img").click(function(){		
+					count=count+1;
+					if (count%2==1) {$("#userList").css({display: 'block'});} else {$("#userList").css({display: 'none'});}
+					
+					//if (document.getElementById("less").innerHTML=="+ More Options") {document.getElementById("less").innerHTML="- Hide Options"; $(".other").css({display: 'block'});} else {document.getElementById("less").innerHTML="+ More Options"; $(".other").css({display: 'none'});}
+				  });
+
+		});

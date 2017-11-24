@@ -1,0 +1,86 @@
+html{
+	min-height: 100%;
+	min-width: 100%;
+}
+
+body{
+	min-height: 100%;
+	min-width: 100%;
+	background-image: url(images/bgimg.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+div{
+	height: 250px;
+}
+
+#whole{
+	max-width: 40%;	
+	margin-top: 10%	;
+
+}
+
+#register{
+	float: left;
+	align-content: center;
+	border-right: 1px solid white;
+	padding-bottom: 0px;
+}
+
+#login{
+	min-width: 60%;
+	padding-top: 45px;
+	margin-bottom: 0px;
+}
+
+img{
+	height: 150px;
+	width: 200px;
+	margin: 40px 44px 40px 10px;
+
+}
+
+input{
+	
+	border: none;
+	padding: 16px;
+	width:200px;
+	border-bottom: 1px solid black;
+	background-color: gold;
+	margin: 5px;
+	font-size: 20px;
+}
+
+#submit{
+	  margin: auto;
+	  padding: 10px 25px;
+	  font-size: 24px;
+	  cursor: pointer;
+	  outline: none;
+	  color: #fff;
+	  border: none;
+	  border-radius: 15px;
+	  box-shadow: 0 9px #999;
+          background-color: rebeccapurple; 
+}
+
+#regBtn{
+	  padding: 10px 25px;
+	  font-size: 24px;
+	  cursor: pointer;
+	  outline: none;
+	  color: #fff;
+	  background-color: rebeccapurple;
+	  border: none;
+	  border-radius: 15px;
+	  box-shadow: 0 9px #999;
+}
+
+#submit:hover,#regBtn:hover {background-color: #3e8e41}
+
+#submit:active,#regBtn:active {
+	  background-color: #3e8e41;
+	  box-shadow: 0 5px #666;
+	  transform: translateY(4px);
+}
